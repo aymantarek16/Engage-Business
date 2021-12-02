@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+.grand{
+    background-color: white;
+    padding: 40px;
+}
+.parent{
+    width: 90%;
+    margin: auto;
+}
+.item{
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+.grand .parent .item h2{
+    text-align: left;
+    margin: 20px 0;
+    font-size: 40;
+}
+.grand .parent .item p{
+    margin: 20px 0;
+    font-size: 18;
+    line-height: 1.7;
+}
+.grand .parent .item ul{
+    line-height: 2.5;
+    font-size: 18;
+
+}
+.grand .parent .item img{
+    padding: 20px;
+    margin: 20px 0;
+}
+.grand-tow{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.grand-tow .parent .item p{
+    margin: 20px 0;
+    font-size: 18;
+    line-height: 1.7;
+}
+.grand-tow .parent .item article{
+    margin: 20px 0;
+    font-size: 18;
+    line-height: 1.7;
+}
+.grand-tow .parent .item h2{
+    text-align: left;
+    margin: 20px 0;
+    font-size: 40;
+}
+
+.grand-baking{
+    background-color: white;
+    padding: 40px;
+}
+.grand-baking .item-baking{
+    text-align: center;
+}
+
+.grand-baking .item-baking h2{
+    margin: 20px 0;
+    font-size: 30;
+}
+.grand-baking .item-baking p{
+    text-align: center;
+    margin: 20px;
+}
+.grand-baking .parent-baking-tow{
+    width: 90%;
+    margin: auto;
+}
+.grand-baking .parent-baking-tow .baking-tow{
+    float: left;
+    padding: 20px;
+    width: 33.333%;
+    text-align: center;
+    margin-top: 40px;
+}
+.grand-baking .parent-baking-tow .baking-tow h2{
+    margin: 20px 0;
+}
+.grand-baking .parent-baking-tow .baking-tow p{
+    line-height: 1.7;
+    font-size: 18;
+}
+.grand-three{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.grand-three .parent .item h3{
+    margin: 20px 0;
+    font-size: 20;
+}
+.grand-three .parent .item p{
+    margin: 40px 0;
+    font-size: 18;
+    line-height: 1.7;
+}
+.grand-three .parent .item ul{
+    line-height: 2.5;
+    font-size: 18;
+
+}
+.grand-three .parent .item h2{
+    text-align: left;
+    margin: 20px 0;
+    font-size: 40;
+}
