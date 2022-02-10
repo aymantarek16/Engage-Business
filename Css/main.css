@@ -76,6 +76,22 @@ img{
     margin-left: 10px;
     background-color: #fff;
 }
+@media (max-width:1024px){
+    .sec-eng{
+         height: 70vh;
+     }
+
+    .sec-eng .item-eng{
+        width: 100%;
+        margin-top: 600px;
+    }
+
+     .sec-eng .item-eng h1{
+        font-size: 40px;
+        width: 100%;
+    }
+       
+    }
 
 @media (max-width:768px){
    .sec-eng{
@@ -83,7 +99,7 @@ img{
         background-size : 100% 150%;
        background-repeat: no-repeat;
         background-position: top;
-        height: 30vh;
+        height: 35vh;
         width: 100%;
         overflow: hidden;
         
@@ -94,7 +110,7 @@ img{
     .sec-eng .item-eng{
         
         width: 100%;
-        margin-top: 70px;
+        margin-top: 95px;
         text-align: center;
         color: rgb(255, 255, 255);
         padding: 20px;
@@ -143,7 +159,7 @@ img{
     .sec-eng{
     
         background-size: 100% 150%;
-        height: 30vh;
+        height: 40vh;
         width: 100%;
         padding: 0;
         overflow: hidden;
@@ -153,7 +169,7 @@ img{
     .sec-eng .item-eng{
         
         width: 100%;
-        margin-top: 94px;
+        margin-top: 130px;
         text-align: center;
         color: rgb(255, 255, 255);
         padding: 0;
@@ -192,6 +208,22 @@ img{
         margin-left: 4px;
         background-color: #fff;
     }
+
+@media (min-width:400px) and (max-width:412px){
+    .sec-eng{
+    
+        height: 30vh;
+    
+    }
+}
+
+@media (min-width:390px) and (max-width:400px){
+    .sec-eng{
+    
+        height: 30vh;
+    
+    }
+}
 }
 
 
@@ -562,9 +594,8 @@ img{
     margin: 20px;
     background-color: #4274b7;
     color: #fff;
-    width: 25%;
+    width: 26% !important;
     border-radius: 50%;
-    
 }
 .our .p-our-2 .i-our h3{
     font-size: 15px;    
