@@ -78,7 +78,7 @@ img{
 }
 @media (max-width:1024px){
     .sec-eng{
-         height: 100vh !important;
+         height: 70vh;
      }
 
     .sec-eng .item-eng{
