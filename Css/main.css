@@ -96,7 +96,7 @@ img{
 @media (max-width:768px){
    .sec-eng{
     
-        background-size : 100% 150%;
+        background-size : cover;
        background-repeat: no-repeat;
         background-position: top;
         height: 35vh;
@@ -159,7 +159,7 @@ img{
     .sec-eng{
     
         background-size: 100% 150%;
-        height: 50vh;
+        height: 40vh;
         width: 100%;
         padding: 0;
         overflow: hidden;
