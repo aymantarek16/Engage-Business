@@ -472,12 +472,13 @@ img {
   text-align: center;
 }
 .our .p-our-2 .i-our i {
-  line-height: 60px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
   font-size: 24px;
-  margin: 20px;
+  margin: 15px 0;
   background-color: #4274b7;
   color: #fff;
-  width: 26% !important;
   border-radius: 50%;
 }
 .our .p-our-2 .i-our h3 {
@@ -486,8 +487,8 @@ img {
 }
 .our .p-our-2 .i-our p {
   color: #888;
-  line-height: 1.8;
   font-size: 14px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -504,13 +505,9 @@ img {
   }
 
   .our .p-our-2 .i-our i {
-    line-height: 40px;
-    width: 30px;
     font-size: 20px;
-    margin: 10px;
     background-color: #4274b7;
     color: #fff;
-    border-radius: 100%;
   }
 }
 
@@ -519,7 +516,7 @@ img {
 .background {
   height: 75vh;
   background-image: url("../img/1.jpg");
-  background-size: 100% 150%;
+  background-size: cover;
 }
 
 @media (max-width: 768px) {
@@ -531,6 +528,12 @@ img {
 @media (max-width: 600px) {
   .background {
     height: 30vh;
+  }
+}
+
+@media (max-width: 300px) {
+  .background {
+    height: 25vh;
   }
 }
 
@@ -550,6 +553,13 @@ img {
   width: 20%;
   padding: 30px 50px;
   opacity: 0.8;
+  filter: blur(2px);
+  transition: 0.5s;
+}
+
+.s-photo .p-photo .i-photo:hover {
+  filter: blur(0);
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
